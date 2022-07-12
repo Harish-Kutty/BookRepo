@@ -1,0 +1,18 @@
+<div align="center">
+    <h2 align="center">View Book Record</h2>
+    <table border="1">
+           <thead>
+               <th> bno</th>     
+               <th> bname</th>
+               <th> bprice</th>
+           </thead>
+           <tbody>
+                  <tr *ngFor="let r of data1">
+                   <td>{{r.bno}}</td>
+                   <td>{{r.bname}}</td>
+                   <td>{{r.bprice}}</td>
+                   </tr>
+           </tbody>
+
+    </table>
+</div>

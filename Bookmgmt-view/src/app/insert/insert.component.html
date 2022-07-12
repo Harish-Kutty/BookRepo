@@ -1,0 +1,26 @@
+<div align="center">
+    <h2 align="center"> Insert Book Details</h2>
+    </div>
+          <br><br>
+    <div class="d-flex justify-content-center align-items-center">
+          <img src="assets/book.jpeg" width="600px" height="450px" alt="" class="m-3 bgimg">
+         
+            <form #insertform="ngForm" (ngSubmit)="insertdata(insertform)" class="mx-auto row my-5">
+              <div class="form-group col-12">
+              <label class="form-label"> Book ID : </label>
+              <input type="text" name="bno" id="bno" #bno (ngModel)="bno" class="form-control" autocomplete="off">
+              </div> <br>
+              <div class="form-group col-12">
+              <label class="form-label"> Book Name : </label>
+              <input type="text" name="bname" id="bname" #bname (ngModel)="bname" class="form-control" autocomplete="off">
+              </div><br>
+              <div class="form-group col-6">
+              <label class="form-label"> Book Price : </label>
+              <input type="text" name="bprice" id="bprice" #bprice (ngModel)="bprice" class="form-control" autocomplete="off">
+              </div><br>
+             
+              <div class="form-group col-12 mt-3">
+                <input type="submit" value="Insert" class="btn btn-dark">
+              </div>
+            </form>
+          </div>

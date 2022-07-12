@@ -1,0 +1,29 @@
+form{
+    width: 80%;
+    background-color: rgba(139, 234, 115, 0.634);
+    padding: 30px;
+    border-radius: 20px;
+}
+.deleteform{
+    height: 450px;
+    width: 600px;
+}
+label{
+    font-weight: bold;
+}
+h2{
+    border: 3px solid rgb(115, 210, 234);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+    padding: 20px;
+}
+a{
+    margin: 30px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    position: relative;
+    bottom: 0;
+}

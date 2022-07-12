@@ -1,0 +1,22 @@
+form{
+    width: 80%;
+    background-color: rgba(247, 16, 105, 0.815);
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    top: 10%;
+}
+.addform{
+    height: 450px;
+    width: 600px;
+}
+label{
+    font-weight: bold;
+}
+h2{
+    border: 3px solid rgb(234, 137, 115);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+    padding: 20px;
+}
